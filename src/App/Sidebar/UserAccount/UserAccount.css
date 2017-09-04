@@ -1,0 +1,51 @@
+.UserAccount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    min-height: 40px;
+    height: 40px;
+    padding: 10px 0;
+    color: #FAEFFF;
+}
+
+.UserAccount .avatar {
+	float: left;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+.UserAccount .avatar .avatar-image {
+	height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-image: url('/images/avatar-default.png');
+}
+
+.UserAccount .username {
+    float: left;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 110px);
+}
+
+.UserAccount .auth-button {
+	position: absolute;
+    top: 20px;
+    right: 12px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.UserAccount .auth-button:hover {
+	color: #E29C45;
+}
+

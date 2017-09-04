@@ -1,0 +1,37 @@
+.ChannelLists {
+	position: absolute;
+    top: 60px;
+    bottom: 70px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+    background: #624B6B;
+    padding-bottom: 30px;
+}
+
+.ChannelLists .channel-list {
+
+}
+
+.ChannelLists .channel-list h3 {
+	margin: 25px 15px 5px 15px;
+}
+
+.ChannelLists .channel-list ul {
+	margin: 10px 0 0 15px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.ChannelLists .channel-list ul li {
+	padding: 2px 10px;
+}
+
+.ChannelLists .channel-list ul li.active {
+	background: #6F557A;
+}
+
+.ChannelLists .channel-list ul li:hover {
+	background: #533D5B;
+}
