@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './ChannelLists.css';
+import './SidebarChannelLists.css';
 
-class ChannelLists extends Component {
+class SidebarChannelLists extends Component {
   render() {
     return (
-      <div className="ChannelLists">
+      <div className="SidebarChannelLists">
       	<div className="FavoriteChannels channel-list">
       		<h3 className="list-title"><i className="glyphicon glyphicon-star"></i> Favorites</h3>
       		<ul>
@@ -70,4 +70,4 @@ class ChannelLists extends Component {
   }
 }
 
-export default ChannelLists;
+export default SidebarChannelLists;

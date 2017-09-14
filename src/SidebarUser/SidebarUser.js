@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './UserAccount.css';
+import './SidebarUser.css';
 
-class UserAccount extends Component {
+class SidebarUser extends Component {
   render() {
     return (
-      <div className="UserAccount">
+      <div className="SidebarUser">
         <div className="avatar">
 		  <div className="avatar-image"></div>
 	    </div>
@@ -19,4 +19,4 @@ class UserAccount extends Component {
   }
 }
 
-export default UserAccount;
+export default SidebarUser;

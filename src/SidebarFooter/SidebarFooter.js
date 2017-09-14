@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './Footer.css';
+import './SidebarFooter.css';
 
-class Footer extends Component {
+class SidebarFooter extends Component {
   render() {
     return (
-      <div className="Footer">
+      <div className="SidebarFooter">
         <div className="logo">
           <img src="./images/logo.png" alt="Mangosteem logo"/>
         </div>
@@ -17,4 +17,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default SidebarFooter;
