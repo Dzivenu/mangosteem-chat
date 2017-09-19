@@ -1,0 +1,22 @@
+.Chat {
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 260px;
+    right: 0;
+    width: auto;
+    height: auto;
+    will-change: transform;
+    transition: right 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.Chat .content-container {
+	flex-grow: 1;
+    position: relative;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

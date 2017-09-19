@@ -1,0 +1,16 @@
+.ChatHeader {
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 0 10px 0 20px;
+    border-width: 0 0 1px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 61px;
+    background: #ECF0F1;
+}
